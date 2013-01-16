@@ -68,8 +68,8 @@
      (define-key text-mode-map "\C-i" 'self-insert-command)
      )))
 
-(require 'slime)
-(require 'slime-js)
+(package-require-or-install 'slime)
+(package-require-or-install 'slime-js)
 (add-hook 'js2-mode-hook
   (lambda ()
     (slime-js-minor-mode 1)))

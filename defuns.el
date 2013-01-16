@@ -1,5 +1,5 @@
-(require 'frame-cmds)
-(require 'frame-fns)
+(package-require-or-install 'frame-cmds)
+(package-require-or-install 'frame-fns)
 
 (defun undosify ()
  (interactive)

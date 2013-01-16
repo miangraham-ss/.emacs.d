@@ -1,6 +1,6 @@
 ;; Key Bindings
 ;(global-set-key (kbd "TAB") 'self-insert-command)
-(require 'ace-jump-mode)
+(package-require-or-install 'ace-jump-mode)
 
 (global-set-key "\C-x\C-k" 'kill-region)
 (global-set-key "\C-xg" 'goog)

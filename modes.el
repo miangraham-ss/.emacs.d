@@ -1,4 +1,5 @@
 (package-require-or-install 'iedit)
+(package-require-or-install 'magit)
 
 (package-require-or-install 'zenburn-theme)
 (load-theme 'zenburn t)

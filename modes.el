@@ -21,11 +21,3 @@
 
 (global-auto-revert-mode)
 
-;; Line numbers
-;(require 'linum)
-;(linum-mode)
-;(add-hook 'js-mode-hook (lambda () (linum-mode 1)))
-;(add-hook 'php-mode-hook (lambda () (linum-mode 1)))
-;(add-hook 'ruby-mode-hook (lambda () (linum-mode 1)))
-
-(when (display-graphic-p) (set-frame-size (selected-frame) 160 60))

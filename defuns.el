@@ -33,6 +33,13 @@
   (rename-frame "" "scratch")
 )
 
+(defun use-hw()
+  (interactive)
+  (desktop-change-dir "~/hw")
+  (cd "~/hw")
+  (rename-frame "" "hw")
+)
+
 (cd "~")
 (rename-frame "" "~")
 
@@ -151,4 +158,3 @@
   (goto-char (point-min))
   (replace-regexp "}catch" "} catch")
 )
-
